@@ -10,8 +10,7 @@ pipeline {
                     echo "git previous successful commit :${GIT_PREVIOUS_SUCCESSFUL_COMMIT}"
                     echo "git branch : ${GIT_BRANCH}"
                     echo "git url : ${GIT_URL}"
-                    echo "git local branch : ${GIT_LOCAL_BRANCH}"
-                    stash 'myStash' // Stash any files you want to keep for later stages
+                    //echo "git local branch : ${GIT_LOCAL_BRANCH}"
                 }
             }
         }
