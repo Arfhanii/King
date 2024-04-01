@@ -9,7 +9,7 @@ pipeline {
                  echo "git previous successful commit :${GIT_PREVIOUS_SUCCESSFUL_COMMIT}"
                  echo "git branch : ${GIT_BRANCH}"
                  echo "git url : ${GIT_URL}"
-                 echo "git local branch : ${GIT_LOCAL_BRANCH}"
+                 stash echo "git local branch : ${GIT_LOCAL_BRANCH}"
             }
         }
     }
